@@ -1,6 +1,6 @@
 # Q & A
 
-Q: Why only match `*://*/*.{png,jpg}` ?
+Q: Why only match `*://*/*.{png,jpg}` ?<br />
 A: It would cause loss of page performance in some practice. Maybe it's a feature in later version.
 
 # TODO

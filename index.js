@@ -4,7 +4,7 @@
 // @namespace    https://github.com/lvjiaxuan/tinyimg-userscript
 // @version      0.0.1
 // @description  Download image compressed by https://tinypng.com
-// @author       You
+// @author       lvjiaxuan <471501748@qq.com> (https://github.com/lvjiaxuan)
 // @match        *://*/*.png
 // @match        *://*/*.jpg
 // @connect      tinypng.com
