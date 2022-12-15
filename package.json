@@ -1,0 +1,26 @@
+{
+  "name": "@lvjiaxuan/tinyimg-userscript",
+  "version": "0.0.1",
+  "private": false,
+  "description": "",
+  "author": "lvjiaxuan <471501748@qq.com> (https://github.com/lvjiaxuan)",
+  "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@lvjiaxuan/eslint-config": "^0.4.2",
+    "eslint": "^8.29.0"
+  },
+  "eslintConfig": {
+    "extends": "@lvjiaxuan",
+    "globals": {
+      "GM_notification": true,
+      "GM_registerMenuCommand": true,
+      "GM_xmlhttpRequest": true,
+      "GM_download": true
+    }
+  }
+}
