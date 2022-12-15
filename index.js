@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         TinyPNG_JPG
-// @name:zh-CN   熊猫压缩
+// @name:zh-CN   熊猫压缩下载
 // @namespace    https://github.com/lvjiaxuan/tinyimg-userscript
 // @version      0.0.1
 // @description  Download image compressed by https://tinypng.com
+// @description:zh-cn 下载熊猫压缩后的图片
 // @author       lvjiaxuan <471501748@qq.com> (https://github.com/lvjiaxuan)
 // @match        *://*/*.png
 // @match        *://*/*.jpg
@@ -11,6 +12,7 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_xmlhttpRequest
 // @grant        GM_download
+// @license      MIT
 // ==/UserScript==
 
 
@@ -82,3 +84,4 @@ async function canvasToBlob(canvas, quality = 1) {
   // webp 11304
   return new Promise(resolve => canvas.toBlob(resolve, `image/${ imgMime }`, quality))
 }
+
