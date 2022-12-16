@@ -2,7 +2,7 @@
   "name": "@lvjiaxuan/tinyimg-userscript",
   "version": "0.0.1",
   "private": false,
-  "description": "",
+  "description": "A userscript to Download image compressed by https://tinypng.com",
   "author": "lvjiaxuan <471501748@qq.com> (https://github.com/lvjiaxuan)",
   "license": "MIT",
   "keywords": [],
